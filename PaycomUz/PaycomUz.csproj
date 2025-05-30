@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageId>PaycomUz</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>Rakhmonberdiev</Authors>
+	  <Company>TalimUz</Company>
+	  <Description>Payme Merchant API middleware and processing library for ASP.NET Core (C#)</Description>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageProjectUrl>https://github.com/Rakhmonberdiev/PaycomUz</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/Rakhmonberdiev/PaycomUz</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.3.0" />
+  </ItemGroup>
+
+</Project>
